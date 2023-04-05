@@ -1,0 +1,31 @@
+@use "sass:color";
+
+/* ------------------------------------ \*
+   #FONTS
+\* ------------------------------------ */
+
+$font-family-sans-serif: -apple-system, blinkmacsystemfont, "Segoe UI", roboto,
+  "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-family-serif: "Georgia", "Times New Roman", serif;
+
+/* ------------------------------------ \*
+   #COLORS
+\* ------------------------------------ */
+
+$main-color: #f5f5f7;
+$secondary-color: #fff;
+$third-color: #000;
+$main-text-color: #2a2a2a;
+$secondary-text-color: #8c8c9f;
+$black-shadow: color.scale($third-color, $lightness: 60%);
+
+/* ------------------------------------ \*
+   #BREAKPOINTS
+\* ------------------------------------ */
+
+$xs-width: 0;
+$s-width: 576px;
+$m-width: 768px;
+$l-width: 992px;
+$xl-width: 1200px;
