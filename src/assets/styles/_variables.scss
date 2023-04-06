@@ -4,10 +4,44 @@
    #FONTS
 \* ------------------------------------ */
 
-$font-family-sans-serif: -apple-system, blinkmacsystemfont, "Segoe UI", roboto,
+@font-face {
+   font-family: 'Montserrat-regular';
+   src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+ }
+ 
+ @font-face {
+   font-family: 'Montserrat-semibold';
+   src: url('../fonts/Montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+ }
+ 
+ @font-face {
+   font-family: 'Montserrat-extrabold';
+   src: url('../fonts/Montserrat/static/Montserrat-ExtraBold.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+ }
+ 
+ @font-face {
+   font-family: 'Montserrat-black';
+   src: url('../fonts/Montserrat/static/Montserrat-Black.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+ }
+
+$font-family-sans-serif: 'Montserrat-regular', -apple-system, blinkmacsystemfont, "Segoe UI", roboto,
   "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol";
 $font-family-serif: "Georgia", "Times New Roman", serif;
+$main-title: 'Montserrat-extrabold';
+$secondary-title: 'Montserrat-semibold';
 
 /* ------------------------------------ \*
    #COLORS

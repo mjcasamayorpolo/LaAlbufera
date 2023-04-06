@@ -16,6 +16,14 @@
     max-width: 900px;
   }
 
+  &__h1 {
+    font-family: $main-title;
+  }
+
+  &__h2 {
+    font-family: $secondary-title;
+  }
+
   &__figure {
     margin: 0;
   }
