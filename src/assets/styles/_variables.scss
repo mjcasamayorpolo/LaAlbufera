@@ -5,34 +5,34 @@
 \* ------------------------------------ */
 
 @font-face {
-   font-family: 'Montserrat-regular';
+   font-family: Montserrat-regular;
+   font-style: normal;
+   font-weight: normal;
    src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
-   font-weight: normal;
-   font-style: normal;
    font-display: swap;
  }
  
  @font-face {
-   font-family: 'Montserrat-semibold';
+   font-family: Montserrat-semibold;
+   font-style: normal;
+   font-weight: normal;   
    src: url('../fonts/Montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
-   font-weight: normal;
-   font-style: normal;
    font-display: swap;
  }
  
  @font-face {
-   font-family: 'Montserrat-extrabold';
-   src: url('../fonts/Montserrat/static/Montserrat-ExtraBold.ttf') format('truetype');
-   font-weight: normal;
+   font-family: Montserrat-extrabold;
    font-style: normal;
+   font-weight: normal;   
+   src: url('../fonts/Montserrat/static/Montserrat-ExtraBold.ttf') format('truetype');   
    font-display: swap;
  }
  
  @font-face {
-   font-family: 'Montserrat-black';
-   src: url('../fonts/Montserrat/static/Montserrat-Black.ttf') format('truetype');
-   font-weight: normal;
+   font-family: Montserrat-black;
    font-style: normal;
+   font-weight: normal;   
+   src: url('../fonts/Montserrat/static/Montserrat-Black.ttf') format('truetype');   
    font-display: swap;
  }
 
